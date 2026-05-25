@@ -47,3 +47,22 @@ nav {
     
     border: solid 0.25px rgb(33, 16, 8);
 }
+
+
+
+header {
+    background-image: url('images/market-hero-didier-provost.jpg');
+    background-color: rgba(255, 240, 232, 1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}    
+
+header > img {
+    display: block;
+    margin: auto;
+    width: 368px;
+}
+
+
