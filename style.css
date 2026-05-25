@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+html{
+    color-scheme: light;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    text-align: center;
+    background: #ddddd1 url(sculpture-bg.jpeg) no-repeat top center;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+    padding: 20px 5px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    text-align: left;
+}
+
+a {
+    display: inline-block;
+    margin: 20px;
+}
+
+p > a {
+    margin: 0;
+}
+
+main {
+    margin: 20px auto 40px auto;
+    width: min(70ch, 100% - 4rem);
+    margin-inline: auto;
+    padding: 30px 50px;
+    background-color: #cfc6b6;
+}
+
+img, video {
+    max-width: 100%;
+    display: block;
+}
