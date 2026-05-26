@@ -1,59 +1,159 @@
-@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
-
-html{
-    color-scheme: light;
-}
-
 body {
-    min-height: 100%;
-    font-family: 'Belleza', sans-serif;
-    font-size: 1.15rem;
-    line-height: 1.5;
-    text-align: center;
-    background: #ddddd1 url(sculpture-bg.jpeg) no-repeat top center;
-    background-size: cover;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(255, 240, 232, 1);
+    font-family: "Belleza", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-    margin: 0;
-    padding: 20px 5px;
+    font-family: "Belleza", sans-serif;
 }
 
 h1 {
-    font-size: 4rem;
+    text-align: center;
+    font-size: 28px;
+    color: rgba(196, 98, 45, 1);
 }
 
 h2 {
-    font-size: 3rem;
+    text-align: center;
+    font-size: 22px;
+    color: rgba(120, 63, 4, 1);
 }
 
 h3 {
-    font-size: 2rem;
-}
-
-p {
-    text-align: left;
-}
-
-a {
-    display: inline-block;
-    margin: 20px;
-}
-
-p > a {
+    font-size: 16px;
+    color: rgba(120, 63, 4, 1);
+    font-style: italic;
     margin: 0;
 }
 
-main {
-    margin: 20px auto 40px auto;
-    width: min(70ch, 100% - 4rem);
-    margin-inline: auto;
-    padding: 30px 50px;
-    background-color: #cfc6b6;
+nav {
+    background-color: rgba(45, 90, 61, 1);
+    padding: 8.5px;
+
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
-img, video {
-    max-width: 100%;
+.nav-logo {
+    width: auto;
+    height: 31px;
     display: block;
+    border-radius: 20px;
+
+    border: solid 0.25px rgba(120, 63, 4, 1);
 }
+
+
+.nav-options {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+}
+
+.nav-options > li {
+    display: inline-block;
+    align-items: center;
+}
+
+.nav-options > li > a {
+    color: rgb(33, 16, 8);
+    text-decoration: none;
+    font-size: 12px;
+    background-color: rgba(196, 98, 45, 1);
+    padding: 3.5px 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+    border: solid 0.25px rgb(33, 16, 8);
+}
+
+.nav-options > li > a:hover {
+    text-decoration: underline;
+    background-color: rgb(33, 16, 8);
+    color: rgba(196, 98, 45, 1);
+    cursor: pointer;
+}
+
+header {
+    background-image: url('images/market-hero-didier-provost.jpg');
+    background-color: rgba(255, 240, 232, 1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}    
+
+header > img {
+    display: block;
+    margin: auto;
+    width: 368px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 8.5px;
+    
+}
+
+.hero-text {
+    width: 100%;
+    margin: 15px 5px;
+}
+
+.content {
+    width: 100%;
+    max-width: 710px;
+    background-color: rgba(232, 184, 75, 1);
+    margin: 3.5px 5px;
+    padding: 3.5px;
+    border-radius: 20px;
+    color: rgb(33, 16, 8);
+}
+
+.content > img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.store-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 710px;
+    margin-bottom: 40px;
+}
+
+.store-info {
+    width: 100%;
+    max-width: 710px;
+}
+
+.store-info h2,
+.store-info h3,
+.store-info p {
+    text-align: left;
+}
+
+footer {
+    background-color: rgba(45, 90, 61, 1);
+    margin: 0;
+    padding: 5px;
+    color: rgba(30, 61, 47, 1);
+    text-align: center;
+    font-size: 10px;
+}
+
+footer > p {
+    margin: 0;
+}
+
