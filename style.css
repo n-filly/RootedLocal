@@ -2,7 +2,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     background-color: rgba(255, 240, 232, 1);
-    font-family: "DM Sans", sans-serif;
+    font-family: "Belleza", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,6 +19,13 @@ h2 {
     text-align: center;
     font-size: 22px;
     color: rgba(120, 63, 4, 1);
+}
+
+h3 {
+    font-size: 16px;
+    color: rgba(120, 63, 4, 1);
+    font-style: italic;
+    margin: 0;
 }
 
 nav {
@@ -102,18 +109,39 @@ main {
     margin: 15px 5px;
 }
 
-.homepage-div {
+.content {
+    width: 100%;
     max-width: 710px;
     background-color: rgba(232, 184, 75, 1);
     margin: 3.5px 5px;
     padding: 3.5px;
     border-radius: 20px;
-    color: rgb(33, 16, 8)
+    color: rgb(33, 16, 8);
 }
 
-.homepage-div > img {
+.content > img {
     max-width: 100%;
     border-radius: 20px;
+}
+
+.store-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 710px;
+    margin-bottom: 40px;
+}
+
+.store-info {
+    width: 100%;
+    max-width: 710px;
+}
+
+.store-info h2,
+.store-info h3,
+.store-info p {
+    text-align: left;
 }
 
 footer {
@@ -125,7 +153,7 @@ footer {
     font-size: 10px;
 }
 
-
 footer > p {
     margin: 0;
 }
+
