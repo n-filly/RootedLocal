@@ -5,12 +5,29 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Belleza", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: rgba(196, 98, 45, 1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 22px;
+    color: rgba(120, 63, 4, 1);
+}
+
 nav {
     background-color: rgba(45, 90, 61, 1);
     padding: 8.5px;
 
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .nav-logo {
@@ -48,7 +65,12 @@ nav {
     border: solid 0.25px rgb(33, 16, 8);
 }
 
-
+.nav-options > li > a:hover {
+    text-decoration: underline;
+    background-color: rgb(33, 16, 8);
+    color: rgba(196, 98, 45, 1);
+    cursor: pointer;
+}
 
 header {
     background-image: url('images/market-hero-didier-provost.jpg');
@@ -65,4 +87,45 @@ header > img {
     width: 368px;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 8.5px;
+    
+}
 
+.hero-text {
+    width: 100%;
+    margin: 15px 5px;
+}
+
+.homepage-div {
+    max-width: 710px;
+    background-color: rgba(232, 184, 75, 1);
+    margin: 3.5px 5px;
+    padding: 3.5px;
+    border-radius: 20px;
+    color: rgb(33, 16, 8)
+}
+
+.homepage-div > img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgba(45, 90, 61, 1);
+    margin: 0;
+    padding: 5px;
+    color: rgba(30, 61, 47, 1);
+    text-align: center;
+    font-size: 10px;
+}
+
+
+footer > p {
+    margin: 0;
+}
