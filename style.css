@@ -157,3 +157,96 @@ footer > p {
     margin: 0;
 }
 
+
+
+@media (min-width: 710px) and (max-width: 1280) {
+    
+main {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.nav-logo {
+    width: auto;
+    height: 46px;
+}
+
+.nav-options > li > a {
+    font-size: 20px;
+    padding: 6px 10px;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 20px;
+}
+
+}
+
+
+
+
+
+@media (min-width: 1280px) {
+   
+main {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content {
+    max-width: 400px;
+}
+
+nav {
+    padding: 16px;
+}
+
+.nav-logo {
+    width: auto;
+    height: 46px;
+}
+
+.nav-options > li > a {
+    font-size: 20px;
+    padding: 6px 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.store-section {
+    display: flex;
+    flex-direction: row;
+}
+
+}
